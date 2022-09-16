@@ -1048,3 +1048,14 @@ h4 {
     display: flex;
     justify-content: center;
 }
+
+.citation{
+    font-size: 18px;
+    max-width: 51rem;
+    margin: auto;
+}
+
+.citation span{
+    font-weight: bold;
+    font-style: italic;
+}
