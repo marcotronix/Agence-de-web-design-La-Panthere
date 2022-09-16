@@ -980,6 +980,7 @@ h4 {
     .bloc-xl,
     .bloc-lg {
         padding: 40px 0;
+        max-width: 90%;
     }
     .bloc-sm,
     .bloc-md {
