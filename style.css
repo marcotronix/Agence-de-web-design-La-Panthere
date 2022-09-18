@@ -362,7 +362,7 @@ a:hover {
     z-index: 2;
 }
 
-/* @media (min-width: 1024px) {
+@media (min-width: 768px) {
     .site-navigation {
         position: absolute;
         top: 50%;
@@ -401,7 +401,7 @@ a:hover {
         float: none;
         margin: 10px auto 0;
     }
-} */
+}
 
 .nav > li > .dropdown a {
     background: none!important;
@@ -1091,7 +1091,7 @@ transform: translateY(-50%) !important;
 /* old et-line CSS */
 
 
-@font-face {
+/* @font-face {
     font-family: et-line;
     src: url(../fonts/et-line.eot);
     src: url(../fonts/et-line.eot?#iefix) format('embedded-opentype'), url(../fonts/et-line.woff) format('woff'), url(../fonts/et-line.ttf) format('truetype'), url(../fonts/et-line.svg#et-line) format('svg');
@@ -1130,4 +1130,4 @@ transform: translateY(-50%) !important;
 
 .et-icon-edit:before {
     content: "\e01c"
-}
+} */
