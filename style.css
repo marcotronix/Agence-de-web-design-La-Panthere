@@ -7,8 +7,6 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
-
-
 a,
 button {
     transition: all .3s ease-in-out;
@@ -399,7 +397,7 @@ a:hover {
         margin-right: 0px;
         margin-top: 20px;
     }
-    .nav-center.mini-nav .navbar-toggle {
+    .nav-center .mini-nav .navbar-toggle {
         float: none;
         margin: 10px auto 0;
     }
@@ -758,7 +756,7 @@ h4 {
 }
 
 .black-background {
-    background-color: rgba(165, 147, 99, 0.7);
+    background-color: rgba(73, 66, 48, 0.7);
     padding: 40px 40px 40px 40px;
 }
 
