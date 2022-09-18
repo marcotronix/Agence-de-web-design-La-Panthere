@@ -114,11 +114,6 @@ h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
   line-height: 1.2;
 }
 
-h1 {
-  margin: .67em 0;
-  font-size: 2em
-}
-
 h1, .h1 {
   font-size: calc(1.375rem + 1.5vw);
 }
@@ -977,23 +972,10 @@ progress {
     flex: 0 0 auto;
     width: 91.66666667%;
   }
-  
   .col-sm-12 {
     flex: 0 0 auto;
     width: 100%;
-    position: relative;
-    min-height: 1px;
-    padding-right: 15px;
-    padding-left: 15px;
-    align-content: center;
   }
-
-  .center-block {
-    display: block;
-    margin-right: auto;
-    margin-left: auto
-}
-
   .offset-sm-0 {
     margin-left: 0;
   }
@@ -1145,7 +1127,7 @@ progress {
   }
   .col-md-8 {
     flex: 0 0 auto;
-    width: 100%;
+    width: 66.66666667%;
   }
   .col-md-9 {
     flex: 0 0 auto;
@@ -1953,27 +1935,6 @@ progress {
     overflow-x: auto;
     -webkit-overflow-scrolling: touch;
   }
-
-  /* START EDIT */
-
-  .col-sm-12 {
-    flex: 0 0 auto;
-    width: 100%;
-    position: relative;
-    min-height: 1px;
-    padding-right: 15px;
-    padding-left: 15px;
-    align-content: center;
-  }
-
-  .center-block {
-    display: block;
-    margin-right: auto;
-    margin-left: auto
-}
-
-/* END EDIT */
-
 }
 @media (max-width: 767.98px) {
   .table-responsive-md {
@@ -4041,7 +4002,6 @@ textarea.form-control-lg {
   .navbar-expand-lg .navbar-collapse {
     display: flex !important;
     flex-basis: auto;
-    justify-content: flex-end;
   }
   .navbar-expand-lg .navbar-toggler {
     display: none;
@@ -5373,7 +5333,6 @@ textarea.form-control-lg {
 .modal-dialog-scrollable .modal-content {
   max-height: 100%;
   overflow: hidden;
-  
 }
 .modal-dialog-scrollable .modal-body {
   overflow-y: auto;
@@ -5388,7 +5347,8 @@ textarea.form-control-lg {
 .modal-content {
   position: relative;
   display: flex;
-  flex-direction: column;  
+  flex-direction: column;
+  width: 100%;
   color: var(--bs-modal-color);
   pointer-events: auto;
   background-color: var(--bs-modal-bg);
@@ -5396,7 +5356,7 @@ textarea.form-control-lg {
   border: var(--bs-modal-border-width) solid var(--bs-modal-border-color);
   border-radius: var(--bs-modal-border-radius);
   outline: 0;
-  }
+}
 
 .modal-backdrop {
   --bs-backdrop-zindex: 1050;
@@ -5441,7 +5401,6 @@ textarea.form-control-lg {
   position: relative;
   flex: 1 1 auto;
   padding: var(--bs-modal-padding);
-  
 }
 
 .modal-footer {
@@ -5535,7 +5494,6 @@ textarea.form-control-lg {
     height: 100%;
     border: 0;
     border-radius: 0;
-    
   }
   .modal-fullscreen-md-down .modal-header,
 .modal-fullscreen-md-down .modal-footer {
