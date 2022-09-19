@@ -337,6 +337,8 @@ a:hover {
     background: transparent;
 }
 
+
+
 .navbar-toggle {
     margin: 10px 10px 0 0;
     border: 0px;
@@ -360,6 +362,11 @@ a:hover {
     float: right;
     position: relative;
     z-index: 2;
+}
+
+.nav > li .dropdown-menu a,
+.nav > li .dropdown-menu a:hover {
+    color: #ff0000;
 }
 
 @media (min-width: 768px) {
@@ -853,11 +860,43 @@ h4 {
 }
 
 @media (max-width: 992px) and (min-width: 768px) {
+    
     .navbar .nav {
-        max-width: 80%
+        margin-top: 15px;
+        padding-top: 0px;
+        margin-right: -20px;
+        margin-left: -20px;
+        float: none!important;
+        z-index: 1;
+        border-top: 1px solid rgba(0, 0, 0, .2);
     }
-    .nav-center.navbar .nav {
-        max-width: 100%
+    
+    
+    
+    .navbar.row {
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .site-navigation {
+        position: inherit;
+        transform: none;
+        -webkit-transform: none;
+        -ms-transform: none;
+    }
+    .nav > li .dropdown-menu a,
+    .nav > li .dropdown-menu a:hover {
+        color: #fd0000;
+    }
+    .nav > li {
+        margin-top: 0;
+        border-bottom: 1px solid rgba(0, 0, 0, .1);
+        background: rgba(0, 0, 0, .05);
+        text-align: left;
+        padding-left: 15px;
+        width: 100%;
+    }
+    .nav > li:hover {
+        background: rgba(0, 0, 0, .08);
     }
 }
 
@@ -916,6 +955,7 @@ h4 {
         background-attachment: scroll;
     }
     .navbar .nav {
+        margin-top: 15px;
         padding-top: 0;
         border-top: 1px solid rgba(0, 0, 0, .2);
         float: none!important;
@@ -1094,7 +1134,7 @@ transform: translateY(-50%) !important;
 @font-face {
     font-family: et-line;
     src: url(./fonts/et-line.eot);
-    src: url(./fonts/et-line.eot?#iefix) format('embedded-opentype'), url(./fonts/et-line.woff) format('woff'), url(./fonts/et-line.ttf) format('truetype'), url(./fonts/et-line.svg#et-line) format('svg');
+    src: url(/fonts/et-line.eot?#iefix) format('embedded-opentype'), url(./fonts/et-line.woff) format('woff'), url(./fonts/et-line.ttf) format('truetype'), url(./fonts/et-line.svg#et-line) format('svg');
     font-weight: 400;
     font-style: normal;
     font-display: swap;
