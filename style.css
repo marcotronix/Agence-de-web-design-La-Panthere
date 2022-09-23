@@ -526,6 +526,8 @@ button {
     opacity: 1;
     z-index: 500;
     transition: all .3s ease-in-out;
+    /* mix-blend-mode: difference; */
+    /* filter: blur(1px); */
 }
 
 .scrollToTop span {
@@ -1101,6 +1103,7 @@ h4 {
 .flex{
     display: flex;
     justify-content: center;
+    justify-content: space-evenly;
 }
 
 .citation{
