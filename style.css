@@ -133,7 +133,7 @@ a:hover {
 .d-bloc h5 a,
 .d-bloc h6 a,
 .d-bloc p a {
-    color: rgba(255, 255, 255, .6);
+    color: rgba(26, 26, 26, 0.74);
 }
 
 .d-bloc .a-btn:hover,
@@ -681,6 +681,7 @@ a {
 
 .hero-bloc-text {
     font-size: 38px;
+    font-weight: 600;
 }
 
 .hero-bloc-text-sub {
@@ -698,7 +699,7 @@ a {
 }
 
 p {
-    font-size: 14px;
+    font-size: 16px;
 }
 
 .tight-width-whitespace {
@@ -1115,7 +1116,7 @@ h4 {
 }
 
 .citation span{
-    font-weight: bold;
+    font-weight: 600;
     font-style: italic;
 }
 

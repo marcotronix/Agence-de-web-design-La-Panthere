@@ -1,6 +1,6 @@
 #301 Redirect Old File
 Redirect 301 /page2.html /contact.html
 # Caching schema
-<FilesMatch "\.(jpg|png|css|js)$">
+<FilesMatch "\.(jpg|png|css|js|webp)$">
 Header set Cache-Control "public, max-age=86400"
 </FilesMatch>
